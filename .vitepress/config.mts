@@ -5,6 +5,9 @@ export default defineConfig({
   description: 'AI Agent 工程实践知识库 — Harness 设计、Skill 选型、工作流编排',
   lang: 'zh-CN',
   ignoreDeadLinks: true,
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
+  ],
 
   vite: {
     server: {
@@ -14,6 +17,7 @@ export default defineConfig({
   },
 
   themeConfig: {
+    logo: '/favicon.svg',
     nav: [
       { text: '首页', link: '/' },
       { text: 'Harness', link: '/harness/' },

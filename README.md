@@ -2,6 +2,8 @@
 
 > AI Agent 工程实践知识库 — Harness 设计、Prompt 工程、Skill 选型、视觉工程、场景工作流
 
+🌐 **在线版本**：<https://playbook.robozephyr.com>
+
 主要给"写给 AI 读的文档"做工程化沉淀。所有方法论和模板都基于真实项目实践 + Anthropic / OpenAI / Google 一手官方文档。
 
 ## 内容板块
@@ -47,6 +49,8 @@ npm run docs:build  # 产物在 .vitepress/dist/
 - [VitePress](https://vitepress.dev/) 静态文档站
 - 中文撰写，专有名词保留英文（Skill / Workflow / Claude Code 等）
 
-## 站点
+## 部署
 
-🚧 在线版本部署中：`playbook.robozephyr.com`
+- 静态托管：Cloudflare Pages
+- 自定义域：`playbook.robozephyr.com`
+- 重新部署：`npm run docs:build && npx wrangler pages deploy .vitepress/dist --project-name ai-engineering-playbook --commit-message "$(git log -1 --pretty=%s)" --commit-dirty=false`

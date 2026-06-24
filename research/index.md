@@ -34,6 +34,7 @@ layer: L3
 | [official-sources-2026-05](./official-sources-2026-05.md) | **官方信源索引**：Claude Code / Codex / Cursor / Gemini CLI / Copilot 的 docs/changelog/blog/GitHub + Agent Skills 和 MCP 规范 + 官方插件源码示例 | 全站 | 2026-05 |
 | [skill-ecosystem-2026-03](./skill-ecosystem-2026-03.md) | Skill 生态全景：官方 / 大厂 / 社区 / 第三方市场清单与规模（含 2026-05 补录的中文与 harness 实现条目） | [Skills](/skills/) | 2026-03 |
 | [harness-literature-2026-04](./harness-literature-2026-04.md) | Harness Engineering 文献综述：6 篇核心文章 + 3 个开源项目 + 10+ 篇扩展引用 | [Harness](/harness/) | 2026-04 |
+| [loop-engineering-2026-06](./loop-engineering-2026-06.md) | Loop Engineering 事实快照：agent loop、eval loop、environment feedback loop 的公开来源与概念成熟度 | [Harness](/harness/), [Workflows](/workflows/) | 2026-06 |
 
 ## 计划中（待填充）
 

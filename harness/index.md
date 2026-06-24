@@ -2,7 +2,7 @@
 name: harness-index
 description: Harness Engineering 板块总览。Agent 工作环境设计方法论（前馈/后馈/记忆三职责 + 时间/空间/交互三维度）
 when_to_use: 想了解 Harness 是什么、本板块覆盖什么内容、从哪个子页开始读
-related: [./init-methodology, ./context-design, ./logging, ./knowledge-system, ./self-evolution]
+related: [./init-methodology, ./context-design, ./loop-engineering, ./logging, ./knowledge-system, ./self-evolution]
 stage: index
 ---
 
@@ -21,6 +21,8 @@ stage: index
 | **前馈 (Guide)** | 在 agent 行动前预防错误 | 架构文档、约束规则、参考案例 |
 | **后馈 (Sensor)** | 在 agent 行动后检测问题 | Linter、测试、LLM-as-Judge |
 | **记忆 (Memory)** | 跨会话保持上下文和知识 | Decision Records、Solution 库、日志 |
+
+这些职责在运行时表现为一个个可设计的闭环：目标 → 上下文 → 动作 → 观测 → 评估 → 修正 → 沉淀。见 [Loop Engineering](./loop-engineering)。
 
 ## 三个扩展维度
 
@@ -69,6 +71,7 @@ stage: index
 | [Init 方法论](./init-methodology) | **核心** — 任何项目的 Harness 初始化流程 | 新项目启动时 |
 | [设计思想](./architecture-patterns) | 从多模块实战沉淀出的抽象 harness 架构原则 | 初始化复杂项目时 |
 | [Context 设计](./context-design) | CLAUDE.md / AGENTS.md 设计指南 | 写配置文件时 |
+| [Loop Engineering](./loop-engineering) | AI Agent 迭代闭环：目标、状态、动作、观测、评估、修正、沉淀 | 设计 workflow 或诊断 AI 协作效率时 |
 | [日志系统](./logging) | 可观测 + 可修复的日志架构 | 搭建 pipeline 时 |
 | [知识管理](./knowledge-system) | Decision / Solution / Plan / Playbook | 积累经验时 |
 | [自进化](./self-evolution) | 自修复 + 自迭代 + 衰减检测 | 系统成熟后 |
@@ -90,3 +93,4 @@ stage: index
 本板块的方法论推荐基于 L3 事实层：
 
 - [Harness 文献快照 2026-04](../research/harness-literature-2026-04.md) — 6 篇核心文章 + 3 个开源项目 + 10+ 篇扩展引用
+- [Loop Engineering 调研快照 2026-06](../research/loop-engineering-2026-06.md) — agent loop / eval loop / environment feedback loop 相关来源

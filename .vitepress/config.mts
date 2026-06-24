@@ -36,6 +36,7 @@ export default defineConfig({
           { text: 'Init 方法论', link: '/harness/init-methodology' },
           { text: '设计思想', link: '/harness/architecture-patterns' },
           { text: 'Context 设计', link: '/harness/context-design' },
+          { text: 'Loop Engineering', link: '/harness/loop-engineering' },
           { text: '日志系统', link: '/harness/logging' },
           { text: '知识管理', link: '/harness/knowledge-system' },
           { text: '自进化', link: '/harness/self-evolution' },
@@ -98,6 +99,7 @@ export default defineConfig({
           { text: '官方信源索引 2026-05', link: '/research/official-sources-2026-05' },
           { text: 'Skill 生态快照 2026-03', link: '/research/skill-ecosystem-2026-03' },
           { text: 'Harness 文献快照 2026-04', link: '/research/harness-literature-2026-04' },
+          { text: 'Loop Engineering 快照 2026-06', link: '/research/loop-engineering-2026-06' },
         ]
       }
     ],

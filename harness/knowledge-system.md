@@ -4,7 +4,7 @@ description: 团队级知识管理。Decision Records / Solution / Plan / Playbo
 when_to_use: 积累项目经验；想把失败转化为团队资产；新人 onboarding 需要快速理解决策史
 inputs: [项目实际经验, 失败案例]
 outputs: [ADR, Solution 库, Plan 模板, Playbook]
-related: [./self-evolution, ./templates, ./init-methodology]
+related: [./self-evolution, ./templates, ./init-methodology, ./llm-wiki]
 stage: method
 ---
 

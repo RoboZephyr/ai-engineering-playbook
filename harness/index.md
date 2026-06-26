@@ -2,7 +2,7 @@
 name: harness-index
 description: Harness Engineering 板块总览。Agent 工作环境设计方法论（前馈/后馈/记忆三职责 + 时间/空间/交互三维度）
 when_to_use: 想了解 Harness 是什么、本板块覆盖什么内容、从哪个子页开始读
-related: [./init-methodology, ./context-design, ./loop-engineering, ./logging, ./knowledge-system, ./self-evolution]
+related: [./init-methodology, ./context-design, ./loop-engineering, ./logging, ./knowledge-system, ./llm-wiki, ./self-evolution]
 stage: index
 ---
 
@@ -74,6 +74,7 @@ stage: index
 | [Loop Engineering](./loop-engineering) | AI Agent 迭代闭环：目标、状态、动作、观测、评估、修正、沉淀 | 设计 workflow 或诊断 AI 协作效率时 |
 | [日志系统](./logging) | 可观测 + 可修复的日志架构 | 搭建 pipeline 时 |
 | [知识管理](./knowledge-system) | Decision / Solution / Plan / Playbook | 积累经验时 |
+| [LLM Wiki / Agent 知识库](./llm-wiki) | compile-not-retrieve 本质 + raw/wiki/schema 三层 + PKM 根基 + 检索/memory 选型 | 设计 agent 可读知识库时 |
 | [自进化](./self-evolution) | 自修复 + 自迭代 + 衰减检测 | 系统成熟后 |
 | [模板库](./templates) | 所有文档模板，可直接复制 | 随时参考 |
 
@@ -94,3 +95,4 @@ stage: index
 
 - [Harness 文献快照 2026-04](../research/harness-literature-2026-04.md) — 6 篇核心文章 + 3 个开源项目 + 10+ 篇扩展引用
 - [Loop Engineering 调研快照 2026-06](../research/loop-engineering-2026-06.md) — agent loop / eval loop / environment feedback loop 相关来源
+- [LLM Wiki / PKM 系统快照 2026-06](../research/llm-wiki-pkm-systems-2026-06.md) — LLM Wiki 范式定义、PKM/RAG/agent memory 系统事实与来源

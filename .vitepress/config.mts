@@ -39,6 +39,7 @@ export default defineConfig({
           { text: 'Loop Engineering', link: '/harness/loop-engineering' },
           { text: '日志系统', link: '/harness/logging' },
           { text: '知识管理', link: '/harness/knowledge-system' },
+          { text: 'LLM Wiki / Agent 知识库', link: '/harness/llm-wiki' },
           { text: '自进化', link: '/harness/self-evolution' },
           { text: '模板库', link: '/harness/templates' },
         ]

@@ -35,6 +35,7 @@ layer: L3
 | [skill-ecosystem-2026-03](./skill-ecosystem-2026-03.md) | Skill 生态全景：官方 / 大厂 / 社区 / 第三方市场清单与规模（含 2026-05 补录的中文与 harness 实现条目） | [Skills](/skills/) | 2026-03 |
 | [harness-literature-2026-04](./harness-literature-2026-04.md) | Harness Engineering 文献综述：6 篇核心文章 + 3 个开源项目 + 10+ 篇扩展引用 | [Harness](/harness/) | 2026-04 |
 | [loop-engineering-2026-06](./loop-engineering-2026-06.md) | Loop Engineering 事实快照：agent loop、eval loop、environment feedback loop 的公开来源与概念成熟度 | [Harness](/harness/), [Workflows](/workflows/) | 2026-06 |
+| [llm-wiki-pkm-systems-2026-06](./llm-wiki-pkm-systems-2026-06.md) | LLM-Wiki / Obsidian / PKM 系统快照：**Karpathy 的 LLM Wiki 范式（compile-not-retrieve）**、PKM 方法论根基（Zettelkasten/Evergreen/MOC/PARA）、RAG 谱系（Vector/Graph/Light/Hybrid + Contextual Retrieval）、agent memory（Letta/Mem0）、MCP / llms.txt 与 Agent 知识库学习路线 | [Harness](/harness/), [Research](/research/) | 2026-06 |
 
 ## 计划中（待填充）
 

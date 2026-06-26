@@ -100,6 +100,7 @@ export default defineConfig({
           { text: 'Skill 生态快照 2026-03', link: '/research/skill-ecosystem-2026-03' },
           { text: 'Harness 文献快照 2026-04', link: '/research/harness-literature-2026-04' },
           { text: 'Loop Engineering 快照 2026-06', link: '/research/loop-engineering-2026-06' },
+          { text: 'LLM-Wiki / PKM 系统 2026-06', link: '/research/llm-wiki-pkm-systems-2026-06' },
         ]
       }
     ],
